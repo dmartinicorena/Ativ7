@@ -42,11 +42,4 @@ $(document).ready(function() {
         // call showSlides() again after 6 seconds
         setTimeout(showSlides, 6000);
     }
-
-    // manually change slides
-    $(".carousel-nav button").click(function() {
-        var index = $(this).index();
-        slideIndex = index + 1;
-        showSlides();
-    });
 });
