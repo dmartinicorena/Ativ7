@@ -1,68 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>IF News</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <img src="img/logo.png" alt="logo">
-            </div>
-            <nav>
-                <ul class="nav-bar-menu">
-                    <li>Categorias
-                        <ul class="nav-bar-desplegable">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">About</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="logo" class="logo-img" /></a>
+      </div>
+      <nav>
+        <ul class="nav-bar-menu">
+          <li>
+            Categorias
+            <ul class="nav-bar-desplegable">
+              <li><a href="#">Esportes</a></li>
+              <li><a href="#">Eventos</a></li>
+              <li><a href="#">Institucional</a></li>
+              <li><a href="#">Premiações</a></li>
+              <li><a href="#">Envie uma noticia</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section class="banner">
+    <main>
+      <section class="banner">
+          <div class="banner-content">
+            <h1>Processo Seletivo</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+              voluptatum.
+            </p>
+            <a href="#" class="btn">Leer más</a>
+        </div>
+      </section>
+      <section class="news">
         <div class="container">
-            <div class="banner-content">
-                <h1>IF News</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          <div class="news-content">
+            <div class="news-item">
+              <img src="img/news1.jpg" alt="news1" />
+              <div class="news-text">
+                <h2>News 1</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam, voluptatum.
+                </p>
                 <a href="#" class="btn">Leer más</a>
+              </div>
             </div>
-        </div>
-    </section>
-    <section class="news">
-        <div class="container">
-            <div class="news-content">
-                <div class="news-item">
-                    <img src="img/news1.jpg" alt="news1">
-                    <div class="news-text">
-                        <h2>News 1</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                        <a href="#" class="btn">Leer más</a>
-                    </div>
-                </div>
-                <div class="news-item">
-                    <img src="img/news2.jpg" alt="news2">
-                    <div class="news-text">
-                        <h2>News 2</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                        <a href="#" class="btn">Leer más</a>
-                    </div>
-                </div>
-                <div class="news-item">
-                    <img src="img/news3.jpg" alt="news3">
-                    <div class="news-text">
-                        <h2>News 3</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                        <a href="#" class="btn">Leer más</a>
-                    </div>
-                </div>
+            <div class="news-item">
+              <img src="img/news2.jpg" alt="news2" />
+              <div class="news-text">
+                <h2>News 2</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam, voluptatum.
+                </p>
+                <a href="#" class="btn">Leer más</a>
+              </div>
             </div>
+            <div class="news-item">
+              <img src="img/news3.jpg" alt="news3" />
+              <div class="news-text">
+                <h2>News 3</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam, voluptatum.
+                </p>
+                <a href="#" class="btn">Leer más</a>
+              </div>
+            </div>
+          </div>
         </div>
-</body>
+      </section>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
 </html>
