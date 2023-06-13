@@ -1,7 +1,6 @@
 /*Countdown function for next IFSul Selection Process*/
 
 $(document).ready(function () {
-  // Countdown timer for next IFSul Selection Process
   var targetDate = new Date("11/30/2023").getTime();
   var countdownTimer = setInterval(function () {
     var currentDate = new Date().getTime();
@@ -43,3 +42,4 @@ $(document).ready(function() {
         setTimeout(showSlides, 6000);
     }
 });
+
