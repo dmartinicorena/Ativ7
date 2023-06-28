@@ -43,7 +43,7 @@ $(document).ready(function() {
     }
 });
 
-document.getElementById("depoimentos").onmouseover = function () {
+document.getElementById("depoimentos").onMouseOver = function () {
   document.getElementById("depoimentos").style.webkitTransform = "translateX(100px)";
 }
 
