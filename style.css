@@ -180,6 +180,10 @@ main h1 {
     color: #666666;
 }
 
+.depoimentos{
+  text-wrap: balance;
+}
+
 /* Footer Styles */
 
 .footer-container{
